@@ -2,16 +2,19 @@
   <div id="app">
     <img src="./assets/logo.png">
     <HelloWorld msg="YAPP"/>
+    <VoteCard   score=5 />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import VoteCard   from './components/VoteCard.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    VoteCard
   }
 }
 </script>
