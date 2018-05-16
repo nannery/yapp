@@ -2,7 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <HelloWorld msg="YAPP"/>
-    <VoteCard   score=5 />
+    <VoteCard   v-bind:score="5" />
   </div>
 </template>
 
