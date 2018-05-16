@@ -21,8 +21,13 @@ export default {
 <style lang="scss" scoped>
 $c: purple;
 h3 {
-  text-align: center;
-  color:      $c;
-  margin:     40px 0 0;
+  color: $c;
+}
+.vote-card {
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  border:        1px $c solid;
+  border-radius: 0.5em 1.1em 0.5em;
 }
 </style>
