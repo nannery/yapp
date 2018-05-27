@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="yapp">
     <img src="./assets/logo.png">
     <HelloWorld msg="YAPP"/>
     <Ballot />
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
-#app {
+#yapp {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
